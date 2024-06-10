@@ -25,7 +25,7 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
-        public void TestGhAc()
+        public void Test1_field()
         {
             driver.Url = "https://www.ebay.com";
 
@@ -41,7 +41,7 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
-        public void TestGhButton()
+        public void Test2_search()
         {
             driver.Url = "https://www.ebay.com";
 
